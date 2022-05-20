@@ -1,0 +1,18 @@
+*{
+  marging: 0px;
+  padding: 0px;
+}
+body{
+  background: lightgray;
+  font-family: Arial;
+}
+header{
+  background: #e8a1ae;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+nav ul li{
+  float: left;
+}
