@@ -7,7 +7,60 @@
   </head>
   <body>
     <div id="container">
-      
+      <header>
+        <h1>MAFRAMADELRICH</h1>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <a href="../">inicio</a>
+          </li>
+          <li>
+            <a href="../pensiones/">pensiones</a>
+          </li>
+          <li>
+            <a href="../mas/">mas</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="clearfix"></div>
+      <section id="content">
+        <article>
+          <h2>Reservar</h2>
+          <p>
+            <form>
+              <label>Nombre</label>
+              <input type="text" id="Nombre"></input>
+              <br/><br/><label>Apellido</label>
+              <input type="text"></input>
+              <br/><br/><label>Correo electrónico</label>
+              <input type="email"></input>
+              <br/><br/>
+              <label>Número de teléfono</label>
+              <input type="tel"/>
+              <br/><br/><label>Pension</label>
+              <select>
+                <option></option>
+                <option>Pensión básica</option>
+                <option>Media pensión</option>
+                <option>Pensión completa</option>
+                <option>Pensión Paqui Rich</option>
+              </select>
+              <br/><br/>
+              <input type="submit" value="Siguiente" id="Siguiente"/>
+            </form>
+          </p>
+        </article>
+      </section>
+      <aside>
+        <form>
+          <input type="search" placeholder="Pulsa para buscar" id="barra"/>
+          <input type="submit" value="buscar" id="buscar"/>
+        </form>
+      </aside>
+      <footer>
+        MaframaDelRich&copy;2022
+      </footer>
     </div>
   </body>
 </html>

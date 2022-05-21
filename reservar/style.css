@@ -1,6 +1,72 @@
+*{
+  margin-left: 0px;
+  padding: 0px;
+}
 body{
+  background: lightgray;
   font-family: Arial;
 }
 #container{
   margin: 0px;
+}
+header{
+  height: 50px;
+  width: 80%;
+  margin-left: 10%;
+  background: #e8a1ae;
+  text-align: center;
+  line-height: 50px;
+  border-bottom: solid black;
+}
+nav{
+  height: 30px;
+  width: 80%;
+  margin-left: 10%;
+  background: lightblue;
+  border-bottom: solid black;
+}
+nav ul li{
+  margin-top: 5px;
+  margin-left: 10px;
+  float: left;
+  list-style: none;
+}
+.clearfix{
+   clear: both;
+}
+#content{
+  float: left;
+  height: 300px;
+  width: 60%;
+  margin-left: 10%;
+  background: grey;
+  border-right: 3px solid black;
+}
+#content article{
+  margin-left: 10px;
+}
+#content article form input{
+  background: #d9d9d9;
+}
+#content article form select option{
+  background: #d9d9d9;
+}
+aside{
+  float: left;
+  height: 300px;
+  width: calc(20% - 2px);
+  background: lightgreen;
+}
+aside form #barra{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+aside article #buscar{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+footer{
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
 }

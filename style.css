@@ -53,6 +53,14 @@ aside{
   background: lightgreen;
   min-height: 300px;
 }
+aside form #barra{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+aside article #buscar{
+  margin-left: 5px;
+  margin-right: 5px;
+}
 footer{
   width: 80%;
   text-align: center;
