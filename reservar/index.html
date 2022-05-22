@@ -2,65 +2,83 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <title>RESERVAR-MAFRAMA DEL RICH</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>MAFRAMA DEL RICH-RESERVAR</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="icon" type="image/png" href="../img/logo.png"/>
   </head>
   <body>
-    <div id="container">
-      <header>
-        <h1>MAFRAMA DEL RICH</h1>
-      </header>
-      <nav>
-        <ul>
-          <li>
-            <a href="../">inicio</a>
-          </li>
-          <li>
-            <a href="../pensiones/">pensiones</a>
-          </li>
-          <li>
-            <a href="../mas/">mas</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="clearfix"></div>
-      <section id="content">
+    <div id="logo">
+      <img src="../img/logo.png"/>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="../">inicio</a>
+        </li>
+        <li>
+          <a href="../pensiones">pensiones</a>
+        </li>
+        <li>
+          <a href="../mas">mas</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="clearfix"></div>
+    <div id="cuerpo">
+      <section id="principal">
         <article>
-          <h2>Reservar</h2>
+          <h2>
+            Reservar
+          </h2>
           <p>
             <form>
-              <label>Nombre</label>
-              <input type="text" id="Nombre"></input>
-              <br/><br/><label>Apellido</label>
-              <input type="text"></input>
-              <br/><br/><label>Correo electrónico</label>
-              <input type="email"></input>
+              <label for="nom">Nombre</label>
+              <input type="text" id="nom"/>
               <br/><br/>
-              <label>Número de teléfono</label>
-              <input type="tel"/>
-              <br/><br/><label>Pension</label>
-              <select>
-                <option></option>
-                <option>Pensión básica</option>
-                <option>Media pensión</option>
-                <option>Pensión completa</option>
-                <option>Pensión Paqui Rich</option>
+              <label for="ap">Apellidos</label>
+              <input type="text" id="ap"/>
+              <br/><br/>
+              <label for="telef">Numero de teléfono</label>
+              <input type="tel" id="telef"/>
+              <br/><br/>
+              <label for="ad">Número de adultos</label>
+              <input type="number" id="ad"/>
+              <label for="men">Número de menores</label>
+              <input type="number" id="men"/>
+              <br/><br/>
+              <label for="pension">Pensión</label>
+              <select id="pension">
+                <option>
+                  
+                </option>
+                <option>
+                  Pensión básica
+                </option>
+                <option>
+                  Media pensión
+                </option>
+                <option>
+                  Pensión completa
+                </option>
+                <option>
+                  Pensión Paqui Lux
+                </option>
               </select>
               <br/><br/>
-              <input type="submit" value="Siguiente" id="Siguiente"/>
+              <label for="fe">Fecha de entrada</label>
+              <input type="date" id="fe">
+              <label for="fe">Fecha de salida</label>
+              <input type="date" id="fs">
+              <br/><br/>
+              <input type="submit" value="siguiente"/>
             </form>
           </p>
         </article>
       </section>
-      <aside>
-        <form>
-          <input type="search" placeholder="Pulsa para buscar" id="barra"/>
-          <input type="submit" value="buscar" id="buscar"/>
-        </form>
-      </aside>
-      <footer>
-        MaframaDelRich&copy;2022
-      </footer>
     </div>
+    <footer>
+      MaframaDelRich&copy;2022
+    </footer>
   </body>
+  <script src="script.js"></script>
 </html>

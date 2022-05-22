@@ -54,16 +54,8 @@ nav ul li a{
 #cuerpo #principal h2{
   margin-left: 10px;
 }
-#cuerpo #principal article form{
-  margin: 20px;
-}
-#cuerpo #principal article form option{
-  margin-top: 10px;
-  background: #d5d2d7ee;
-}
-#cuerpo #principal article form input{
-  margin-top: 10px;
-  background: #d5d2d7ee;
+#cuerpo #principal article p{
+  margin-left: 20px;
 }
 footer{
   whidth: 100%;

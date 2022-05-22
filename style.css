@@ -1,4 +1,4 @@
-*{
+/**{
   marging: 0px;
   padding: 0px;
 }
@@ -8,6 +8,7 @@ body{
 }
 #container{
   width: 100%;
+  height: 500px;
   margin: 0px;
 }
 header{
@@ -44,6 +45,9 @@ nav ul li{
   background: grey;
   border-right: 3px solid black;
 }
+#content article img{
+  width: 50%;
+}
 article{
   margin-left: 10px;
 }
@@ -60,9 +64,85 @@ aside form #barra{
 aside article #buscar{
   margin-left: 5px;
   margin-right: 5px;
-}
+}El padre de iker no exsiste.
 footer{
   width: 80%;
   text-align: center;
   margin-left: 10%;
+}*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: Arial;
+}
+#logo img{
+  whidth: 70px;
+  height: 70px;
+}
+#logo{
+  float: left; 
+  whidth: 10%;
+  height: 70px;
+}
+nav{
+  whidth: 70%;
+  height: 70px;
+  line-height: 48px;
+  background: #5a5960;
+}
+nav ul li{
+  color: white;
+  padding: 10px 40px;
+  float: left;
+  list-style: none;
+  font-size: 1.3;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+.clearfix{
+   clear: both;
+}
+#cuerpo #principal{
+  height: 100vh;
+  width: 100%;
+  background-image: url("img/playa.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+#cuerpo #principal article{
+  float: left;
+  width: 70%;
+  color: white;
+  background: #373737dd;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#cuerpo #principal p{
+  margin-left: 10px;
+}
+#cuerpo #principal h2{
+  margin-left: 10px;
+}/*
+#cuerpo #principal #bus{
+  width: 20%;
+  height: 90%;
+  margin-left: 10px;
+  background: #b2b2b2bb;
+}
+#cuerpo #principal form{
+  margin-left: 10px;
+  margin-top: 10px;
+}*/
+footer{
+  whidth: 100%;
+  height: 20px;
+  background: black;
+  color: white;
+  text-align: center;
 }
