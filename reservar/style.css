@@ -37,7 +37,7 @@ nav ul li a{
 #cuerpo #principal{
   height: 100vh;
   width: 100%;
-  background-image: url("../img/playa.jpg");
+  background-image: url("../img/recepción1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -45,7 +45,7 @@ nav ul li a{
 }
 #cuerpo #principal article{
   float: left;
-  width: 70%;
+  width: 90%;
   color: white;
   background: #373737ee;
   margin-top: 10px;

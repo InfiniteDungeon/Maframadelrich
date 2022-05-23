@@ -107,7 +107,7 @@ nav ul li a{
    clear: both;
 }
 #cuerpo #principal{
-  height: 100vh;
+  height: 167vh;
   width: 100%;
   background-image: url("img/playa.jpg");
   background-repeat: no-repeat;
@@ -117,14 +117,22 @@ nav ul li a{
 }
 #cuerpo #principal article{
   float: left;
-  width: 70%;
+  width: 80%;
   color: white;
   background: #373737dd;
   margin-top: 10px;
   margin-left: 10px;
 }
-#cuerpo #principal p{
+#cuerpo #principal article p{
+  list-style: default;
   margin-left: 20px;
+}
+#cuerpo #principal article ul li{
+  list-style: none;
+  margin-left: 20px;
+}
+#cuerpo #principal article ul li img{
+  margin-left: 30px;
 }
 #cuerpo #principal h2{
   margin-left: 10px;

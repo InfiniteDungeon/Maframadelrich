@@ -35,7 +35,7 @@ nav ul li a{
    clear: both;
 }
 #cuerpo #principal{
-  height: 100vh;
+  height: 235vh;
   width: 100%;
   background-image: url("../img/playa.jpg");
   background-repeat: no-repeat;
@@ -56,6 +56,9 @@ nav ul li a{
 }
 #cuerpo #principal article p{
   margin-left: 20px;
+}
+#cuerpo #principal article p img{
+  margin-left: 30px;
 }
 footer{
   whidth: 100%;
